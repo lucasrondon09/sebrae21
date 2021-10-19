@@ -1,0 +1,52 @@
+/* CSS Document */
+
+@font-face{
+	font-family: "Chairdrobe-Thin";
+	src: url("../fonts/Chairdrobe-Thin.otf");
+}
+
+@font-face{
+	font-family: "Lato-Bold";
+	src: url("../fonts/Lato-Bold.ttf");
+}
+
+@font-face{
+	font-family: "Lato-Regular";
+	src: url("../fonts/Lato-Regular.ttf");
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Chairdrobe-Thin" !important;
+	color: #002b3c !important;
+}
+
+p, label{
+	font-family: "Lato-Regular" !important;
+	color: #002b3c !important;
+}
+
+.bg-custom{
+	background-color: #002b3c;
+}
+
+.bg-footer{
+	background-color: #2d001a;
+}
+
+.btn{
+	font-family: "Chairdrobe-Thin" !important;
+	font-size: 2rem;
+	color: #002b3c !important;
+}
+
+.btn-primary{
+	background-color: #002b3c !important;
+	color: #fff !important;
+	border: none !important;
+}
+
+.btn-primary:hover{
+	background-color: #074A64 !important;
+	border: none !important;
+}
+
